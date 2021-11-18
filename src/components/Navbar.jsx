@@ -1,6 +1,5 @@
 import React from 'react';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
-
+import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Button } from 'reactstrap';
 
 
 
@@ -10,13 +9,13 @@ function NavBar() {
     <React.Fragment>
       <Navbar light expand="md">
         <div className="container navbar">
-          <NavbarBrand className="mr-auto" href="/"> <img src="/images/coffee.png" height="50" width="50" alt="logo" />
-              Coffee House
+          <NavbarBrand className="mr-auto" href="/"> <img src="/assets/images/coffee.png" height="50" width="50" alt="logo" />
+              <span className="logo">Coffee House</span>
           </NavbarBrand>
         </div>
       </Navbar>
     </React.Fragment>
-  )
+  );
 }
 
 export default NavBar;
