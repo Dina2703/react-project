@@ -30,6 +30,36 @@ class NavBar extends Component{
                 <span className="logo">Coffee House</span>
             </NavbarBrand>
             <NavbarToggler onClick={this.toggleNav} />
+            <Collapse isOpen={this.state.isNavOpen} navbar >
+              <Nav navbar className="ml-auto" >
+                <NavItem>
+                  <NavLink className="nav-link" to="/home">
+                    Home
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink className="nav-link" to="/about">
+                    About
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink className="nav-link" to="/menu">
+                    Menu
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink className="nav-link" to="/order">
+                    Order
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink className="nav-link" to="/home">
+                    Hiring
+                  </NavLink>
+                </NavItem>
+              
+              </Nav>
+            </Collapse>
           </div>
         </Navbar>
       </React.Fragment>

@@ -2,17 +2,17 @@ body {
   font-family: Verdana, sans-serif;
 }
 .navbar {
-  background-color: rgb(164, 238, 238);
+  background-color: rgb(184, 212, 155);
   position: relative;
   position: sticky; 
   top: 0;
 }
 
 .site-footer {
-  background-color: rgb(164, 238, 238);
+  background-color: rgb(184, 212, 155);
 }
 .top-bar {
-  background-color: rgb(167, 202, 202);
+  background-color: rgb(159, 182, 135);
 }
 
 .logo {
