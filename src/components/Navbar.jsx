@@ -4,11 +4,10 @@ import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, 
 
 
 function NavBar() {
-
   return (
     <React.Fragment>
       <Navbar light expand="md">
-        <div className="container navbar">
+        <div className="container navbar my-3">
           <NavbarBrand className="mr-auto" href="/"> <img src="/assets/images/coffee.png" height="50" width="50" alt="logo" />
               <span className="logo">Coffee House</span>
           </NavbarBrand>
