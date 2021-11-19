@@ -1,12 +1,13 @@
 import React from 'react';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Button } from 'reactstrap';
-
+import { Navbar, NavbarBrand } from 'reactstrap';
+import Header from './Header';
 
 
 function NavBar() {
   return (
     <React.Fragment>
-      <Navbar light expand="md">
+      <Header />
+      <Navbar light expand="md" sticky="top">
         <div className="container navbar my-3">
           <NavbarBrand className="mr-auto" href="/"> <img src="/assets/images/coffee.png" height="50" width="50" alt="logo" />
               <span className="logo">Coffee House</span>

@@ -1,9 +1,12 @@
 body {
   font-family: Verdana, sans-serif;
 }
-.navbar{
+.navbar, .site-footer{
   background-color: rgb(164, 238, 238);
   position: relative;
+}
+.top-bar {
+  background-color: rgb(167, 202, 202);
 }
 
 .logo {

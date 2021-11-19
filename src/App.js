@@ -1,15 +1,15 @@
 import React from 'react';
-import NavBar from './components/Navbar';
-import Body from './components/Body';
-
+import Main from './components/Main';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Body />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Main />
+      </div>
+    </BrowserRouter>
   );
 }
 
