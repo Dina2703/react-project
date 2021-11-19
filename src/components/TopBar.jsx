@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Header() {
+function TopBar() {
   return (
     <div>
         <div className="top-bar">
@@ -15,4 +15,4 @@ function Header() {
   );
 }
 
-export default Header
+export default TopBar;

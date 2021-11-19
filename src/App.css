@@ -1,9 +1,15 @@
 body {
   font-family: Verdana, sans-serif;
 }
-.navbar, .site-footer{
+.navbar {
   background-color: rgb(164, 238, 238);
   position: relative;
+  position: sticky; 
+  top: 0;
+}
+
+.site-footer {
+  background-color: rgb(164, 238, 238);
 }
 .top-bar {
   background-color: rgb(167, 202, 202);
