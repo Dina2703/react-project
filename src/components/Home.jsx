@@ -19,7 +19,7 @@ class Body extends Component {
       return (
         <div className="container px-5" key={image.id}>
           <img width="100%"  src={image.image} alt={image.name} />
-          <h4>{image.text}</h4>
+          <h4 className="p-4">{image.text}</h4>
         </div>
       );
     });

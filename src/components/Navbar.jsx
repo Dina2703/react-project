@@ -24,7 +24,7 @@ class NavBar extends Component{
     return (
       <React.Fragment>
         <TopBar />
-        <Navbar light expand="md">
+        <Navbar light expand="lg">
           <div className="container navbar my-3">
             <NavbarBrand className="mr-auto" href="/"> <img src="/assets/images/coffee.png" height="50" width="50" alt="logo" />
                 <span className="logo">Coffee House</span>
